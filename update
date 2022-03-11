@@ -1,0 +1,3 @@
+#!/bin/sh
+
+helm upgrade my-release ./ --set rudderWorkspaceToken=$RUDDER_WORKSPACE_TOKEN
