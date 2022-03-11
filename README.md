@@ -12,6 +12,15 @@ $ cd rudderstack-helm/
 $ helm install my-release ./ --set rudderWorkspaceToken="<workspace token from the dashboard>"
 ```
 
+Update Chart in Cluster
+
+```bash
+$ git clone git@github.com:rudderlabs/rudderstack-helm.git
+$ cd rudderstack-helm/
+$ cp .env.example .env
+$ ./update
+```
+
 ## Introduction
 
 The RudderStack Helm chart creates a Rudderstack deployment on a [Kubernetes](http://kubernetes.io) cluster
